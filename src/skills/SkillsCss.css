@@ -45,8 +45,7 @@
   font-family: 'Montserrat', sans-serif;
   padding: 5%;
   transition: 1s;
-  /* list-style: none; */
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .dropdown-content li:hover {
   color: #4087a2;

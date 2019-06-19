@@ -6,7 +6,7 @@
   color: black;
   font-family: 'Merriweather', serif;
   text-decoration: underline teal;
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: uppercase;
   text-align: center;
   transition: 2s;
@@ -25,7 +25,7 @@
   font-family: 'Montserrat', sans-serif;
   margin-top: 5%;
   color: black;
-  font-size: 1.8em;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@
   font-family: 'Old Standard TT', serif;
     font-family: 'Montserrat', sans-serif;
   color: #313636;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .projectsImgPTwo {
@@ -48,7 +48,7 @@
 .projectIcon {
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .projectIcon div {
   padding: 3%;
