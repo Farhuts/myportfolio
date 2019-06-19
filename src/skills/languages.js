@@ -3,7 +3,7 @@ import React from 'react';
 const Languages = () => {
   return (
     <div className="col">
-      <h2 className='skill-cats'>languages</h2>
+      <h3 className='skill-cats'>languages</h3>
         <ul className='dropdown-content'>
           <li>Javascript</li>
           <li>HTML/CSS</li>

@@ -18,7 +18,6 @@ html, body, h1, p, a, div, section {
 .mainH1 {
   position: absolute;
   color: white;
-  font-family: 'Merriweather', serif;
   text-transform: uppercase;
   top: 40%;
   left: 50%;

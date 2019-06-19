@@ -3,7 +3,7 @@ import React from 'react';
 const SpokenL = () => {
   return (
     <div className="col">
-      <h2 className='skill-cats'>spoken languages</h2>
+      <h3 className='skill-cats'>spoken languages</h3>
         <ul className='dropdown-content'>
           <li>English</li>
           <li>Russian</li>

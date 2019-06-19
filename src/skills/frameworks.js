@@ -3,7 +3,7 @@ import React from 'react';
 const Frameworks = () => {
   return (
     <div className="col">
-      <h2 className='skill-cats'>FRAMEWORKS</h2>
+      <h3 className='skill-cats'>FRAMEWORKS</h3>
         <ul className='dropdown-content'>
           <li>React</li>
           <li>Redux</li>

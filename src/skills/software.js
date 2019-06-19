@@ -3,7 +3,7 @@ import React from 'react';
 const Software = () => {
   return (
     <div className="col">
-      <h2 className='skill-cats'>software</h2>
+      <h3 className='skill-cats'>software</h3>
         <ul className='dropdown-content'>
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
