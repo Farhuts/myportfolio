@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './navbar';
+import Navbar from './navbar/navbar';
 import AppCss from './App.css'
 import Main from './main/main'
 import AboutMe from './aboutMe/aboutMe'

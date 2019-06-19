@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  padding: 1.2%;
+  color: #fff;
+  background-color: rgba(37, 37, 37, 0.8);
+  z-index: 2;
+}
+
+.navbar nav {
+  display: flex;
+}
+.nav-item {
+  height: 1.5em;
+  margin: 0 1.5em 0 0;
+  font-size: 1.2em;
+  font-family: 'Merriweather', serif;
+}
+
+.nav-item a {
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: 2s;
+}
+.nav-item a:hover {
+  color: #202b47;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
