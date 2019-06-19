@@ -101,7 +101,7 @@
      white-space: nowrap;
    }
    .footer {
-     height: 8em;
+     height: 5em;
    }
    .navbar {
      width: calc(110vw - 1em);
@@ -120,6 +120,9 @@
   }
   .mainH1 {
     font-size: 1.8em;
+  }
+  .navbar {
+    justify-content: center;
   }
 }
 
@@ -166,11 +169,11 @@
     font-size: 1.5em;
   }
   img {
-    width: 150%;
+    width: 100%;
   }
   .footer a {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .navbar {
     width: calc(100vw - 1em);
@@ -217,10 +220,10 @@
      font-size: 1.5em;
    }
    img {
-     width: 150%;
+     width: 100%;
    }
    .footer a {
-     margin-left: 3%;
+     margin-left: 2%;
      margin-right: 2%;
    }
    .navbar {
@@ -236,6 +239,7 @@
   }
   .mainH1 {
     font-size: 3em;
+    letter-spacing: 8px;
   }
   .projectsImg, .projectsImg2 {
     width: 27%;
@@ -274,15 +278,12 @@
   .aboutMeP {
     text-align: justify;
   }
-  img {
-    width: 180%;
-  }
   .footer a {
-    margin-left: 3%;
+    margin-left: 2%;
     margin-right: 2%;
   }
   img {
-    width: 150%;
+    width: 100%;
   }
   .navbar {
     width: calc(100vw - 1em);
