@@ -241,6 +241,12 @@
     width: 27%;
     margin-left: 7%;
   }
+  .projectsImg {
+    margin-top: -6%;
+  }
+  .projectsImg2 {
+    margin-top: -8%;
+  }
   .projectsImgH3, .projectsImgH3Two {
     margin-left: 50%;
   }
@@ -248,7 +254,7 @@
     margin: 0% 5% 0 50%;
   }
   .projectsImgPTwo {
-    margin-top: 10%;
+    margin-top: 6%;
   }
   .left {
     left: -7%;
@@ -260,7 +266,7 @@
     font-size: 1.5em;
   }
   .projectIcon {
-    width: 42%;
+    width: 46%;
   }
   .aboutMeP {
     text-align: justify;
