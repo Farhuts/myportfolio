@@ -13,6 +13,44 @@
     <script src="/jQuery/navbarScroll.js"></script>
     <script src="/jQuery/navbarJump.js"></script>
   </head>
+  <script>
+  //	NAVIGATION AND NAVIGATION VISIBLE ON SCROLL
+  $(document).ready(function(){
+      $(".navbar").hide(); //Hide the navigation bar first
+        $(window).scroll(function () {  //Listen for the window's scroll event
+            if (isScrolledAfterElement("#skills")) { //if it has scrolled beyond the #content elment
+                $('.navbar').fadeIn();  //Show the navigation bar
+            } else {
+                $('.navbar').fadeOut(); //Else hide it
+            }
+        });
+
+        //Function that returns true if the window has scrolled beyond the given element
+        function isScrolledAfterElement(elem) {
+            var $elem = $(elem);
+            var $window = $(window);
+
+            var docViewTop = $window.scrollTop();
+            var docViewBottom = docViewTop + $window.height();
+
+            var elemTop = $elem.offset().top;
+
+            return elemTop <= docViewBottom;
+        }
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      function scrollToSection(event) {
+        event.preventDefault();
+        var $section = $($(this).attr('href'));
+        $('html, body').animate({
+          scrollTop: $section.offset().top
+        }, 500);
+      }
+      $('[data-scroll]').on('click', scrollToSection);
+      }());
+  </script>
 
   <body>
     <div id="root"></div>
