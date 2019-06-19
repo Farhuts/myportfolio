@@ -1,0 +1,71 @@
+.projectsDiv {
+  margin: 5% 0 17% 0;
+}
+
+.projectsH1 {
+  color: black;
+  font-family: 'Merriweather', serif;
+  text-decoration: underline teal;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 2s;
+}
+
+.projectOne, .projectTwo {
+  margin: 2%;
+}
+
+.projectsImg, .projectsImg2 {
+    margin-top: -3%;
+    border-radius: 20px;
+    float: left;
+}
+
+.projectsImgH3, .projectsImgH3Two {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.projectsImgH3Two{
+  margin-top: 15%;
+}
+
+.projectsImgPOne, .projectsImgPTwo {
+  text-align: justify;
+  font-family: 'Old Standard TT', serif;
+    font-family: 'Montserrat', sans-serif;
+  color: #313636;
+  font-size: 1.5em;
+}
+
+.projectsImgPTwo {
+  margin: -20% 10% 0 50%;
+}
+
+.projectIcon {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.projectIcon div {
+  padding: 3%;
+}
+.projectIcon a {
+  border-bottom: 2px solid teal;
+  color: teal;
+  padding-bottom: .20em;
+  text-decoration: none;
+}
+.projectIcon a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='teal' stroke-width='3' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 30%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}

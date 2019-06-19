@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  background-color: teal;
+}
+  .footer img {
+    transition: 1s;
+  }
+  .footer img:hover {
+    transform: scale(1.2);
+  }
