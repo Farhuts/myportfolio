@@ -15,24 +15,31 @@ html, body, h1, p, a, div, section {
   scroll-behavior: smooth;
 }
 
-.mainH1 {
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainHeader h1 {
   position: absolute;
+  text-align: center;
   color: white;
+  margin-left: 1em;
   text-transform: uppercase;
-  top: 55vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
   z-index: 2;
 }
 
+.mainHeader p {
+    text-align: center;
+}
 .sub-title {
   position: absolute;
+  justify-content: center;
   font-family: 'Merriweather', serif;
   color: white;
   font-size: 1.2rem;
-  top: 47vh;
-  left: 48vw;
-  transform: translate(-50%, -50%);
+  margin-left: 1.5em;
   z-index: 2;
 }
 

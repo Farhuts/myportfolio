@@ -3,11 +3,13 @@ import MainCss from './MainCss.css';
 
 const Main = () => {
   return (
-    <header id="top" className='headerMain'>
+    <header id="top">
+      <div className='mainHeader'>
         <h1 className='mainH1'>HI I'M TETIANA FARHUTS</h1>
-        <p className="sub-title"><strong>Welcome to my website</strong></p>
         <div className="parallax"></div>
+      </div>
     </header>
   )
 }
 export default Main
+// <p className="sub-title"><strong>Welcome to my website</strong></p>

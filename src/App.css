@@ -50,13 +50,6 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 480px) {
-  .meImg {
-    width: 75%;
-    margin: 7% 12% 7% 12%;
-  }
-  .aboutMeP {
-    text-align: center;
-  }
   .mainH1 {
     top: 45%;
     white-space: nowrap;
@@ -71,9 +64,6 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
-  .meImg {
-    width: 70%;
-  }
   .projectsImg, .projectsImg2 {
     width: 70%;
     margin: -5% 10% 5% 15%
@@ -114,10 +104,6 @@
 }
 
 @media screen and (min-width: 411px) and (max-width: 731px) {
-  .meImg {
-    width: 70%;
-    margin: 7% 13% 7% 13%;
-  }
   .mainH1 {
     font-size: 1.8em;
   }
@@ -131,10 +117,6 @@
     white-space: nowrap;
     text-align: center;
     font-size: 2em;
-   }
-   .meImg {
-     width: 45%;
-     margin: 14% 5% 3% 5%;
    }
   .projectsImg, .projectsImg2 {
     width: 42%;
@@ -238,6 +220,12 @@
     font-size: 3em;
     letter-spacing: 8px;
   }
+  .aboutMeH1 h1{
+    top: 33vh;
+    left: 5vw;
+    font-weight: 900;
+    font-size: 1.3em;
+  }
   .projectsImg, .projectsImg2 {
     width: 27%;
     margin-left: 7%;
@@ -282,10 +270,5 @@
   .navbar {
     width: calc(100vw - 1em);
     border-radius: 0 0 1em 1em;
-  }
-  .aboutMeH1 h1 {
-    left: 5vw;
-    top: 15vh;
-    font-size: 1.5em;
   }
 }
