@@ -7,7 +7,7 @@ const Experience = () => (
     <div className="timeline">
       <div className="container left">
         <div className="content">
-          <h2>October 2017 - December/2018</h2>
+          <h2>April 2019 - Present</h2>
           <h3>Software Engineering Teaching Fellow (Senior)</h3>
             <ul>* Advised 2 engineering teams by leading standup and conducting code reviews </ul>
             <ul>* Pair-programmed and explained technical concepts of the stack to 60 students daily</ul>
@@ -17,7 +17,7 @@ const Experience = () => (
       </div>
       <div className="container right">
         <div className="content">
-          <h2>April 2019 - Present</h2>
+          <h2>October 2017 - December 2018</h2>
             <h3>Workers’ Compensation Biller</h3>
               <ul>* Created a database for radiology CPT codes</ul>
               <ul>* Participated in front-end design of the company’s website</ul>

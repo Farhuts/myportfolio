@@ -3,8 +3,13 @@ import AboutMeCss from './AboutMeCss.css'
 
 const About = () => (
   <div id='content' className='header'>
-      <img className='meImg' src='assets/me2.jpg'/>
-          <h1 className='aboutMeH1'>About Me</h1>
+    <div className='aboutMeH1'>
+        <h1>About Me</h1>
+    </div>
+      <div className='flex'>
+          <div id='aboutMe'>
+            <img className='meImg' src='assets/me2.jpg'/>
+          </div>
             <p className='aboutMeP'>
               "Fullstack developer, specializing in Javascript, React.js, Redux.js, Node.js, PostgreSQL, and
               Sequelize, with experience in the field of accounting and audit. As a current Fullstack Academy
@@ -13,6 +18,7 @@ const About = () => (
               experiences to collaborate with other developers to build tools that bridge the gap between
               complex processes and user interface."
             </p>
+      </div>
   </div>
 )
 export default About
