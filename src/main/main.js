@@ -12,4 +12,3 @@ const Main = () => {
   )
 }
 export default Main
-// <p className="sub-title"><strong>Welcome to my website</strong></p>
