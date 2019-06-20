@@ -19,8 +19,8 @@ html, body, h1, p, a, div, section {
   position: absolute;
   color: white;
   text-transform: uppercase;
-  top: 40%;
-  left: 50%;
+  top: 55vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
@@ -29,9 +29,9 @@ html, body, h1, p, a, div, section {
   position: absolute;
   font-family: 'Merriweather', serif;
   color: white;
-  font-size: 1.5rem;
-  top: 30%;
-  left: 50%;
+  font-size: 1.2rem;
+  top: 47vh;
+  left: 48vw;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
