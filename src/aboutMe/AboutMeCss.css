@@ -1,34 +1,6 @@
-/* .header {
-  display: flex;
-  flex-direction: column;
-  padding: 3% 0 3% 0;
-  background-color: #f4f1ea;
-}
-
-.meImg {
-  float: right;
-  position: relative;
-  border-radius: 50%;
-  border: 5px solid #a5a5a55e;
-}
-
-.aboutMeH1 {
-  color: black;
-  font-size: 1.5em;
-  font-family: 'Merriweather', serif;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.aboutMeP {
-  color: #313636;
-  font-family: 'Old Standard TT', serif;
-  margin: 5% 8% 5% 8%;
-  letter-spacing: 0.5px;
-} */
-
 .flex {
   display: flex;
+  justify-content: center;
   flex-direction: row-reverse;
   padding: 2%
 }
@@ -42,18 +14,21 @@
   .header #aboutMe {
     flex: 3 1;
   }
+  .aboutMeH1 h1{
+    top: 1vh;
+    left: 38vw;
+    font-size: 1em;
+  }
 }
 
 .header {
   background-color: #f4f1ea;
+  padding: 1% 0 1% 0;
+  position: relative;
 }
-.aboutMeH1 h1 {
+.aboutMeH1 h1{
   position: absolute;
-  left: 25vw;
-  padding-top: 4%;
-  padding-bottom: 2%;
   color: black;
-  font-size: 1.5em;
   font-family: 'Merriweather', serif;
   text-transform: uppercase;
 }

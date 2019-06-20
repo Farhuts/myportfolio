@@ -166,7 +166,7 @@
   }
   .aboutMeP {
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1em;
   }
   img {
     width: 100%;
@@ -179,6 +179,11 @@
     width: calc(100vw - 1em);
     border-radius: 0 0 1em 1em;
   }
+  .aboutMeH1 h1{
+    top: 3vh;
+    left: 5vw;
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
@@ -186,10 +191,6 @@
     white-space: nowrap;
     text-align: center;
     font-size: 3em;
-   }
-   .meImg {
-     width: 45%;
-     margin: 16% 5% 14% 5%;
    }
    .projectsImg2 {
      margin-top: -4%;
@@ -217,7 +218,7 @@
    }
    .aboutMeP {
      text-align: justify;
-     font-size: 1.5em;
+     font-size: 1.3em;
    }
    img {
      width: 100%;
@@ -233,10 +234,6 @@
 }
 
 @media only screen and (min-width: 1366px){
-  .meImg {
-    width: 25%;
-    margin: -3% 10% 0 8%;
-  }
   .mainH1 {
     font-size: 3em;
     letter-spacing: 8px;
@@ -275,9 +272,6 @@
   .projectIcon {
     width: 46%;
   }
-  .aboutMeP {
-    text-align: justify;
-  }
   .footer a {
     margin-left: 2%;
     margin-right: 2%;
@@ -288,5 +282,10 @@
   .navbar {
     width: calc(100vw - 1em);
     border-radius: 0 0 1em 1em;
+  }
+  .aboutMeH1 h1 {
+    left: 5vw;
+    top: 35vh;
+    font-size: 1.5em;
   }
 }
