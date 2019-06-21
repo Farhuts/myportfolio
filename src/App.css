@@ -20,8 +20,7 @@
   }
   .meImg {
     max-width: 320px;
-    width: 55%;
-    margin: 7% 20% 7% 13%;
+    margin: 7% 20% 7% 15%;
   }
   .projectsImg, .projectsImg2 {
     width: 70%;
@@ -71,6 +70,13 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
+  .parallax {
+    background-image: url('./img2.jpg');
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .projectsImg, .projectsImg2 {
     width: 70%;
     margin: -5% 10% 5% 15%
@@ -87,7 +93,6 @@
     margin-left: 2%;
   }
   .mainH1 {
-    top: 45%;
     white-space: nowrap;
     text-align: center;
     font-size: 1.5em;
@@ -120,6 +125,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .parallax {
+    background-image: url('./img2.jpg');
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .mainH1 {
     white-space: nowrap;
     text-align: center;
@@ -182,6 +194,7 @@
     background-size: cover;
   }
   .mainH1 {
+    text-align: center;
     white-space: nowrap;
     text-align: center;
     font-size: 3em;
@@ -228,6 +241,15 @@
 }
 
 @media only screen and (min-width: 1366px){
+  .parallax {
+    background-image: url('./img2.jpg');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .mainH1 {
     font-size: 3em;
     letter-spacing: 8px;
