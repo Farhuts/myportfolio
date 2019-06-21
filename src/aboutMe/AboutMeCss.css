@@ -15,9 +15,7 @@
     flex: 3 1;
   }
   .aboutMeH1 h1{
-    top: 1vh;
-    left: 38vw;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -27,10 +25,9 @@
   position: relative;
 }
 .aboutMeH1 h1{
-  position: absolute;
-  color: black;
-  font-family: 'Merriweather', serif;
-  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin: 2% -2%;
 }
 
 .header p {
