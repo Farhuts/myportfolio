@@ -5890,9 +5890,9 @@ json3@^3.3.2:
   integrity sha1-PAQ0dD35Pi9cQq7nsZvLSDV19OE=
 
 json5@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.2.tgz#63d98d60f21b313b77c4d6da18bfa69d80e1d593"
+  integrity sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==
   dependencies:
     minimist "^1.2.0"
 
@@ -6113,6 +6113,11 @@ lodash.templatesettings@^4.0.0:
   integrity sha1-K01OlbpEDZFf8IvImeRVNmZxMxY=
   dependencies:
     lodash._reinterpolate "~3.0.0"
+
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
 
 lodash.unescape@4.0.1:
   version "4.0.1"
@@ -6371,9 +6376,9 @@ minimist@0.0.8:
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
 minimist@^1.1.1, minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 minimist@~0.0.1:
   version "0.0.10"
@@ -8189,6 +8194,11 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
+react-parallax@^2.2.0:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/react-parallax/-/react-parallax-2.2.4.tgz#c02e2e550c701c82d6febbf426f288b75c9cfd95"
+  integrity sha512-HdKyD845NmaxN+zOFcGPereG59DEgCB0wXJvvOomgwISMr4tVyTlspJGviVl5JVVCER5bmG6crMkDhBkJPRZvQ==
+
 react-router-dom@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.0.1.tgz#ee66f4a5d18b6089c361958e443489d6bab714be"
@@ -8277,6 +8287,13 @@ react-scripts@3.0.1:
     workbox-webpack-plugin "4.2.0"
   optionalDependencies:
     fsevents "2.0.6"
+
+react-scroll-effects@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/react-scroll-effects/-/react-scroll-effects-1.0.13.tgz#2f3531f00f46b5d210310cb1bfa5fb23e569b2cc"
+  integrity sha512-1EcYfjkHORPBR8QIXsE9Vw7C2gIjFfYlKBgokLb6QMA3DCnDJzCmRk1kQt/chTqfapB+M6PUPu9YSXpquxj1fw==
+  dependencies:
+    lodash.throttle "^4.1.1"
 
 react@^16.8.6:
   version "16.8.6"
